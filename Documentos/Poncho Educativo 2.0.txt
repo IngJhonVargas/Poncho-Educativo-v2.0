@@ -1,0 +1,5 @@
+Este Poncho contiene principalmente 4 elementos:
+1 Pantalla LCD Gráfica de 128x64.
+1 Pantalla LCD Texto de 16x2.
+1 Display 7 Segmentos de 4 Dígitos.
+1 Matriz de Leds de 8x8.
