@@ -1,4 +1,4 @@
-update=22/05/2017 10:56:22 p. m.
+update=25/05/2017 8:56:23 p. m.
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -30,5 +32,5 @@ LibDir=
 LibName1=Librerias/power
 LibName2=Librerias/device
 LibName3=Librerias/display
-[general]
-version=1
+LibName4=Librerias/Poncho_Esqueleto
+LibName5=Librerias/MAX7219

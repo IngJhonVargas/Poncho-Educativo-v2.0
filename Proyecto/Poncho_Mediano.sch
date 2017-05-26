@@ -1,5 +1,33 @@
 EESchema Schematic File Version 2
-LIBS:Poncho_Mediano-cache
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -365,7 +393,7 @@ U 1 1 56145856
 P 7550 5900
 F 0 "H1" H 7500 6050 60  0000 C CNN
 F 1 "PCB_HOLE" H 7600 5800 60  0000 C CNN
-F 2 "Poncho_Modelos:Led_Hole" H 7400 5950 60  0001 C CNN
+F 2 "FootPrints:Led_Hole" H 7400 5950 60  0001 C CNN
 F 3 "PCB HOLE" H 7500 6050 60  0001 C CNN
 	1    7550 5900
 	1    0    0    -1  
@@ -376,7 +404,7 @@ U 1 1 561458ED
 P 8100 5900
 F 0 "H2" H 8050 6050 60  0000 C CNN
 F 1 "PCB_HOLE" H 8150 5800 60  0000 C CNN
-F 2 "Poncho_Modelos:Led_Hole" H 7950 5950 60  0001 C CNN
+F 2 "FootPrints:Led_Hole" H 7950 5950 60  0001 C CNN
 F 3 "PCB HOLE" H 8050 6050 60  0001 C CNN
 	1    8100 5900
 	1    0    0    -1  
@@ -387,7 +415,7 @@ U 1 1 56145920
 P 8600 5900
 F 0 "H3" H 8550 6050 60  0000 C CNN
 F 1 "PCB_HOLE" H 8650 5800 60  0000 C CNN
-F 2 "Poncho_Modelos:Led_Hole" H 8450 5950 60  0001 C CNN
+F 2 "FootPrints:Led_Hole" H 8450 5950 60  0001 C CNN
 F 3 "PCB HOLE" H 8550 6050 60  0001 C CNN
 	1    8600 5900
 	1    0    0    -1  
@@ -398,7 +426,7 @@ U 1 1 56145951
 P 9100 5900
 F 0 "H4" H 9050 6050 60  0000 C CNN
 F 1 "PCB_HOLE" H 9150 5800 60  0000 C CNN
-F 2 "Poncho_Modelos:Led_Hole" H 8950 5950 60  0001 C CNN
+F 2 "FootPrints:Led_Hole" H 8950 5950 60  0001 C CNN
 F 3 "PCB HOLE" H 9050 6050 60  0001 C CNN
 	1    9100 5900
 	1    0    0    -1  

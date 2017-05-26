@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name FootPrints)(type KiCad)(uri "$(KIPRJMOD)/FootPrints")(options "")(descr ""))
+  (lib (name FootPrints)(type KiCad)(uri "$(KIPRJMOD)/FootPrints.pretty")(options "")(descr ""))
+  (lib (name w_smd_dil)(type KiCad)(uri "$(KIPRJMOD)/FootPrints.pretty/SMD_dil/w_smd_dil.pretty")(options "")(descr ""))
 )
