@@ -1,16 +1,14 @@
 EESchema Schematic File Version 2
-LIBS:8x8led-cache
 LIBS:power
 LIBS:device
 LIBS:display
 LIBS:Poncho_Esqueleto
-LIBS:MAX7219
 LIBS:Poncho_Educativo_v2.0-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 2 3
 Title "Esquemático de conexión para pines Derechos."
 Date "2017-05-25"
 Rev ""
@@ -31,28 +29,6 @@ F 3 "" H 5550 1600 60  0000 C CNN
 	1    5550 1600
 	1    0    0    -1  
 $EndComp
-$Comp
-L +3.3V #PWR?
-U 1 1 59270277
-P 4700 1050
-F 0 "#PWR?" H 4700 900 50  0001 C CNN
-F 1 "+3.3V" H 4700 1190 50  0000 C CNN
-F 2 "" H 4700 1050 50  0001 C CNN
-F 3 "" H 4700 1050 50  0001 C CNN
-	1    4700 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 5927029E
-P 7100 1050
-F 0 "#PWR?" H 7100 900 50  0001 C CNN
-F 1 "+5V" H 7100 1190 50  0000 C CNN
-F 2 "" H 7100 1050 50  0001 C CNN
-F 3 "" H 7100 1050 50  0001 C CNN
-	1    7100 1050
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6500 1500
 NoConn ~ 6500 2100
 NoConn ~ 6500 2000
@@ -68,14 +44,6 @@ NoConn ~ 5300 1900
 NoConn ~ 5300 1800
 NoConn ~ 5300 1700
 NoConn ~ 5300 1500
-Wire Wire Line
-	6500 1300 7100 1300
-Wire Wire Line
-	7100 1300 7100 1050
-Wire Wire Line
-	5300 1300 4700 1300
-Wire Wire Line
-	4700 1300 4700 1050
 $Comp
 L MAX7219 U1
 U 1 1 59270D61
@@ -88,11 +56,11 @@ F 3 "" H 2750 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L +5V #PWR01
 U 1 1 5927341E
 P 4250 2700
-F 0 "#PWR?" H 4250 2550 50  0001 C CNN
-F 1 "+5V" H 4150 2800 50  0000 C CNN
+F 0 "#PWR01" H 4250 2550 50  0001 C CNN
+F 1 "+5V" H 4250 2900 50  0000 C CNN
 F 2 "" H 4250 2700 50  0001 C CNN
 F 3 "" H 4250 2700 50  0001 C CNN
 	1    4250 2700
@@ -102,9 +70,11 @@ $Comp
 L R R1
 U 1 1 59273456
 P 4050 2850
-F 0 "R1" V 4130 2850 50  0000 C CNN
+AR Path="/59273456" Ref="R1"  Part="1" 
+AR Path="/5926FB74/59273456" Ref="R3"  Part="1" 
+F 0 "R3" V 4130 2850 50  0000 C CNN
 F 1 "9.53k" V 4050 2850 50  0000 C CNN
-F 2 "" V 3980 2850 50  0001 C CNN
+F 2 "FootPrints:R_0805_HandSoldering" V 3980 2850 50  0001 C CNN
 F 3 "" H 4050 2850 50  0001 C CNN
 	1    4050 2850
 	0    1    1    0   
@@ -115,7 +85,7 @@ U 1 1 592735FB
 P 2750 5250
 F 0 "AFF1" H 2800 6050 50  0000 C CNN
 F 1 "CA56-12" H 2800 5950 50  0000 C CNN
-F 2 "" H 2250 5250 50  0001 C CNN
+F 2 "FootPrints:Cx56-12" H 2250 5250 50  0001 C CNN
 F 3 "" H 2250 5250 50  0001 C CNN
 	1    2750 5250
 	1    0    0    -1  
@@ -124,7 +94,9 @@ $Comp
 L GND #PWR?
 U 1 1 59273A60
 P 1800 2600
-F 0 "#PWR?" H 1800 2350 50  0001 C CNN
+AR Path="/59273A60" Ref="#PWR?"  Part="1" 
+AR Path="/5926FB74/59273A60" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 1800 2350 50  0001 C CNN
 F 1 "GND" H 1650 2550 50  0000 C CNN
 F 2 "" H 1800 2600 50  0001 C CNN
 F 3 "" H 1800 2600 50  0001 C CNN
@@ -135,7 +107,9 @@ $Comp
 L GND #PWR?
 U 1 1 59273A7C
 P 1800 3100
-F 0 "#PWR?" H 1800 2850 50  0001 C CNN
+AR Path="/59273A7C" Ref="#PWR?"  Part="1" 
+AR Path="/5926FB74/59273A7C" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 1800 2850 50  0001 C CNN
 F 1 "GND" H 1650 3050 50  0000 C CNN
 F 2 "" H 1800 3100 50  0001 C CNN
 F 3 "" H 1800 3100 50  0001 C CNN
@@ -225,8 +199,6 @@ Text Label 3750 3150 2    60   ~ 0
 S5
 Text Label 3750 2950 2    60   ~ 0
 S6
-Wire Wire Line
-	3500 2850 3950 2850
 Text Label 3750 2450 2    60   ~ 0
 S7
 Wire Wire Line
@@ -261,8 +233,6 @@ Entry Wire Line
 	3750 2550 3850 2450
 Entry Wire Line
 	3750 2650 3850 2550
-Wire Wire Line
-	4250 2700 4250 2850
 Wire Wire Line
 	4250 2850 4200 2850
 Wire Wire Line
@@ -304,7 +274,9 @@ $Comp
 L GND #PWR?
 U 1 1 5927526F
 P 6750 3300
-F 0 "#PWR?" H 6750 3050 50  0001 C CNN
+AR Path="/5927526F" Ref="#PWR?"  Part="1" 
+AR Path="/5926FB74/5927526F" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 6750 3050 50  0001 C CNN
 F 1 "GND" H 6750 3150 50  0000 C CNN
 F 2 "" H 6750 3300 50  0001 C CNN
 F 3 "" H 6750 3300 50  0001 C CNN
@@ -374,11 +346,11 @@ F 3 "" H 8900 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L +5V #PWR05
 U 1 1 59275BD4
 P 10400 2600
-F 0 "#PWR?" H 10400 2450 50  0001 C CNN
-F 1 "+5V" H 10300 2700 50  0000 C CNN
+F 0 "#PWR05" H 10400 2450 50  0001 C CNN
+F 1 "+5V" H 10400 2800 50  0000 C CNN
 F 2 "" H 10400 2600 50  0001 C CNN
 F 3 "" H 10400 2600 50  0001 C CNN
 	1    10400 2600
@@ -388,9 +360,11 @@ $Comp
 L R R2
 U 1 1 59275BDA
 P 10200 2750
-F 0 "R2" V 10280 2750 50  0000 C CNN
+AR Path="/59275BDA" Ref="R2"  Part="1" 
+AR Path="/5926FB74/59275BDA" Ref="R4"  Part="1" 
+F 0 "R4" V 10280 2750 50  0000 C CNN
 F 1 "9.53k" V 10200 2750 50  0000 C CNN
-F 2 "" V 10130 2750 50  0001 C CNN
+F 2 "FootPrints:R_0805_HandSoldering" V 10130 2750 50  0001 C CNN
 F 3 "" H 10200 2750 50  0001 C CNN
 	1    10200 2750
 	0    1    1    0   
@@ -398,12 +372,14 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 59275BE8
-P 6300 6700
-F 0 "#PWR?" H 6300 6450 50  0001 C CNN
-F 1 "GND" H 6150 6650 50  0000 C CNN
-F 2 "" H 6300 6700 50  0001 C CNN
-F 3 "" H 6300 6700 50  0001 C CNN
-	1    6300 6700
+P 6100 7000
+AR Path="/59275BE8" Ref="#PWR?"  Part="1" 
+AR Path="/5926FB74/59275BE8" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 6100 6750 50  0001 C CNN
+F 1 "GND" H 5950 6950 50  0000 C CNN
+F 2 "" H 6100 7000 50  0001 C CNN
+F 3 "" H 6100 7000 50  0001 C CNN
+	1    6100 7000
 	1    0    0    -1  
 $EndComp
 Text Label 7550 2250 0    60   ~ 0
@@ -430,34 +406,6 @@ Entry Wire Line
 	7450 2850 7550 2750
 Entry Wire Line
 	7450 3250 7550 3150
-Text Label 8200 4200 3    60   ~ 0
-D0
-Text Label 8700 4200 3    60   ~ 0
-D1
-Text Label 9200 4200 3    60   ~ 0
-D2
-Text Label 9700 4200 3    60   ~ 0
-D3
-Wire Wire Line
-	8200 4450 8200 4200
-Wire Wire Line
-	8700 4450 8700 4200
-Wire Wire Line
-	9200 4450 9200 4200
-Wire Wire Line
-	9700 4450 9700 4200
-Entry Wire Line
-	8100 4100 8200 4200
-Entry Wire Line
-	8600 4100 8700 4200
-Entry Wire Line
-	9100 4100 9200 4200
-Entry Wire Line
-	9600 4100 9700 4200
-Wire Bus Line
-	9600 4100 7600 4100
-Wire Bus Line
-	7600 4100 7450 3950
 Wire Bus Line
 	7450 3950 7450 2350
 Text Label 7450 3950 2    60   ~ 0
@@ -477,8 +425,6 @@ Text Label 9900 3050 2    60   ~ 0
 F5
 Text Label 9900 2850 2    60   ~ 0
 F6
-Wire Wire Line
-	9650 2750 10100 2750
 Text Label 9900 2350 2    60   ~ 0
 F7
 Wire Wire Line
@@ -528,37 +474,11 @@ Wire Bus Line
 	10150 2000 10400 2000
 Wire Bus Line
 	10400 2000 10550 2150
-Entry Wire Line
-	8600 5850 8700 5950
-Entry Wire Line
-	8700 5850 8800 5950
-Entry Wire Line
-	8800 5850 8900 5950
-Entry Wire Line
-	8900 5850 9000 5950
-Entry Wire Line
-	9000 5850 9100 5950
-Entry Wire Line
-	9100 5850 9200 5950
-Entry Wire Line
-	9200 5850 9300 5950
-Entry Wire Line
-	9300 5850 9400 5950
-Wire Bus Line
-	8700 5950 10400 5950
-Wire Bus Line
-	10400 5950 10550 5800
-Wire Bus Line
-	10550 5800 10550 2150
 Wire Bus Line
 	10000 2950 10000 3250
 Wire Bus Line
 	10000 3250 10150 3400
-Wire Bus Line
-	10150 3400 10400 3400
-Wire Bus Line
-	10400 3400 10550 3550
-Text Label 10550 5800 0    60   ~ 0
+Text Label 10550 3250 0    60   ~ 0
 F[0..7]
 Text Label 7750 2150 0    60   ~ 0
 Din
@@ -604,23 +524,23 @@ Entry Wire Line
 	7450 2950 7550 2850
 Entry Wire Line
 	7450 3150 7550 3050
-Text Label 6300 6550 2    60   ~ 0
+Text Label 6100 6850 2    60   ~ 0
 GND
 Wire Wire Line
-	6300 6550 6300 6700
+	6100 6850 6100 7000
 Wire Notes Line
-	5900 6300 6500 6300
+	5750 6600 6350 6600
 Wire Notes Line
-	6500 6300 6500 7000
+	6350 6600 6350 7300
 Wire Notes Line
-	6500 7000 5900 7000
+	6350 7300 5750 7300
 Wire Notes Line
-	5900 7000 5900 6300
+	5750 7300 5750 6600
 Wire Notes Line
-	5900 7000 5700 7200
+	5750 7300 5550 7500
 Wire Notes Line
-	5700 7200 5550 7200
-Text Notes 4400 7300 0    60   ~ 0
+	5550 7500 5400 7500
+Text Notes 4250 7600 0    60   ~ 0
 GND con etiqueta global\npara el MAX7219 de la \nmatriz de LEDs
 NoConn ~ 5300 2800
 NoConn ~ 5300 2700
@@ -679,4 +599,180 @@ Entry Wire Line
 	3150 6150 3250 6250
 Wire Bus Line
 	4400 6100 4400 2250
+$Comp
+L Matrix_8x8_LED M1
+U 1 1 592935F4
+P 8900 5150
+F 0 "M1" H 8150 6000 60  0000 C CNN
+F 1 "Matrix_8x8_LED" H 9350 6000 60  0000 C CNN
+F 2 "" H 8850 5150 60  0001 C CNN
+F 3 "TA15-11EWA" H 8850 5150 60  0001 C CNN
+	1    8900 5150
+	1    0    0    -1  
+$EndComp
+Text Label 7750 4800 0    60   ~ 0
+C0
+Text Label 7750 4900 0    60   ~ 0
+C1
+Text Label 7750 5000 0    60   ~ 0
+C2
+Text Label 7750 5100 0    60   ~ 0
+C3
+Text Label 7750 5200 0    60   ~ 0
+C4
+Text Label 7750 5300 0    60   ~ 0
+C5
+Text Label 7750 5400 0    60   ~ 0
+C6
+Text Label 7750 5500 0    60   ~ 0
+C7
+Text Label 10050 4800 2    60   ~ 0
+F0
+Text Label 10050 4900 2    60   ~ 0
+F1
+Text Label 10050 5000 2    60   ~ 0
+F2
+Text Label 10050 5100 2    60   ~ 0
+F3
+Text Label 10050 5200 2    60   ~ 0
+F4
+Text Label 10050 5300 2    60   ~ 0
+F5
+Text Label 10050 5400 2    60   ~ 0
+F6
+Text Label 10050 5500 2    60   ~ 0
+F7
+Wire Wire Line
+	9900 4800 10050 4800
+Wire Wire Line
+	10050 4900 9900 4900
+Wire Wire Line
+	9900 5000 10050 5000
+Wire Wire Line
+	10050 5100 9900 5100
+Wire Wire Line
+	9900 5200 10050 5200
+Wire Wire Line
+	10050 5300 9900 5300
+Wire Wire Line
+	9900 5400 10050 5400
+Wire Wire Line
+	10050 5500 9900 5500
+Wire Wire Line
+	7900 4800 7750 4800
+Wire Wire Line
+	7750 4900 7900 4900
+Wire Wire Line
+	7900 5000 7750 5000
+Wire Wire Line
+	7750 5100 7900 5100
+Wire Wire Line
+	7900 5200 7750 5200
+Wire Wire Line
+	7750 5300 7900 5300
+Wire Wire Line
+	7900 5400 7750 5400
+Wire Wire Line
+	7750 5500 7900 5500
+Entry Wire Line
+	10050 4800 10150 4700
+Entry Wire Line
+	10050 4900 10150 4800
+Entry Wire Line
+	10050 5000 10150 4900
+Entry Wire Line
+	10050 5100 10150 5000
+Entry Wire Line
+	10050 5200 10150 5100
+Entry Wire Line
+	10050 5300 10150 5200
+Entry Wire Line
+	10050 5400 10150 5300
+Entry Wire Line
+	10050 5500 10150 5400
+Entry Wire Line
+	7650 4700 7750 4800
+Entry Wire Line
+	7650 4800 7750 4900
+Entry Wire Line
+	7650 4900 7750 5000
+Entry Wire Line
+	7650 5000 7750 5100
+Entry Wire Line
+	7650 5100 7750 5200
+Entry Wire Line
+	7650 5200 7750 5300
+Entry Wire Line
+	7650 5300 7750 5400
+Entry Wire Line
+	7650 5400 7750 5500
+Wire Bus Line
+	7450 3950 7650 4150
+Wire Bus Line
+	7650 4150 7650 5400
+Wire Bus Line
+	10150 3400 10150 5400
+Wire Bus Line
+	10550 2150 10550 3250
+Wire Bus Line
+	10150 3400 10400 3400
+Wire Bus Line
+	10400 3400 10550 3250
+Wire Wire Line
+	3900 2850 3500 2850
+Wire Wire Line
+	10050 2750 9650 2750
+$Comp
+L PWR_FLAG #FLG07
+U 1 1 592A4183
+P 3100 6950
+F 0 "#FLG07" H 3100 7025 50  0001 C CNN
+F 1 "PWR_FLAG" H 3100 7100 50  0000 C CNN
+F 2 "" H 3100 6950 50  0001 C CNN
+F 3 "" H 3100 6950 50  0001 C CNN
+	1    3100 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2850 4250 2700
+Text Label 3100 7150 1    60   ~ 0
+PF
+Wire Wire Line
+	3100 7150 3100 6950
+Wire Notes Line
+	2800 6650 3400 6650
+Wire Notes Line
+	3400 6650 3400 7300
+Wire Notes Line
+	3400 7300 2800 7300
+Wire Notes Line
+	2800 7300 2800 6650
+Text Notes 2350 7550 2    60   ~ 0
+Power Flag\ncon etiqueta global.
+Wire Notes Line
+	2650 7450 2450 7450
+Wire Notes Line
+	2800 7300 2650 7450
+Text Label 3650 2850 0    60   ~ 0
+PF
+Text Label 9800 2750 0    60   ~ 0
+PF
+NoConn ~ 5300 1300
+Text Label 6100 6950 0    60   ~ 0
+PF
+Wire Wire Line
+	6900 1300 6500 1300
+$Comp
+L +5V #PWR08
+U 1 1 592A66C3
+P 6900 1200
+F 0 "#PWR08" H 6900 1050 50  0001 C CNN
+F 1 "+5V" H 6890 1380 50  0000 C CNN
+F 2 "" H 6900 1200 50  0001 C CNN
+F 3 "" H 6900 1200 50  0001 C CNN
+	1    6900 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1200 6900 1300
 $EndSCHEMATC
