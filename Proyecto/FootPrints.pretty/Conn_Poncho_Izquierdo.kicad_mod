@@ -1,4 +1,4 @@
-(module Conn_Poncho_Izquierdo (layer F.Cu) (tedit 560F0D69)
+(module Conn_Poncho_Izquierdo (layer F.Cu) (tedit 592CBBAC)
   (tags "CONN Poncho")
   (fp_text reference XA? (at -0.254 -3.302) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.12)))
@@ -6,10 +6,6 @@
   (fp_text value Conn_Poncho_Izquierdo (at 3.175 51.435) (layer F.SilkS) hide
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
-  (fp_line (start 34.925 -6.35) (end -6.985 -6.35) (layer Dwgs.User) (width 0.15))
-  (fp_line (start 34.925 54.61) (end -6.985 54.61) (layer Dwgs.User) (width 0.15))
-  (fp_line (start 34.925 -6.35) (end 34.925 54.61) (layer Dwgs.User) (width 0.15))
-  (fp_line (start -6.985 54.61) (end -6.985 -6.35) (layer Dwgs.User) (width 0.15))
   (fp_text user GPIO8 (at 6.604 48.26) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -178,4 +174,9 @@
   (pad 78 thru_hole oval (at 2.54 45.72 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 79 thru_hole oval (at 0 48.26 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 80 thru_hole oval (at 2.54 48.26 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (model "D:/Especialización en Sistemas Embebidos UBA/Octubre-Noviembre/Diseño de PCBs/TP Final - Jhon Jairo Vargas Yaya/Proyecto/Componentes.3DShapes/pin_strip_2mm_20x2.wrl"
+    (at (xyz 0.05 -0.95 -0.07000000000000001))
+    (scale (xyz 1.27 1.28 1))
+    (rotate (xyz 0 180 90))
+  )
 )

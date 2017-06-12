@@ -1,4 +1,4 @@
-update=27/05/2017 10:18:02 p. m.
+update=7/06/2017 12:15:56 a. m.
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,5 +31,6 @@ LibName1=Librerias/power
 LibName2=Librerias/device
 LibName3=Librerias/display
 LibName4=Librerias/Poncho_Esqueleto
+LibName5=C:/Program Files/KiCad/share/kicad/library/conn
 [general]
 version=1

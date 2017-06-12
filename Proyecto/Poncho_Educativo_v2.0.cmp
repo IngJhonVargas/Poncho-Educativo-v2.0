@@ -1,0 +1,179 @@
+Cmp-Mod V01 Created by PcbNew   date = 28/05/2017 10:58:19 p. m.
+
+BeginCmp
+TimeStamp = 592BD61F
+Path = /5926FB74/592735FB
+Reference = AFF1;
+ValeurCmp = CA56-12;
+IdModule  = FootPrints:Cx56-12;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD64F
+Path = /591BB8C8/592393D5
+Reference = DS1;
+ValeurCmp = LCD-016N002L;
+IdModule  = FootPrints:LCD-016N002L;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD68B
+Path = /591BB8C8/59261B8D
+Reference = DS2;
+ValeurCmp = AG12864E;
+IdModule  = FootPrints:AG12864E;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD690
+Path = /592B6856
+Reference = F1;
+ValeurCmp = FIDUCIAL;
+IdModule  = FootPrints:Fiducial_1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD695
+Path = /592B68A6
+Reference = F2;
+ValeurCmp = FIDUCIAL;
+IdModule  = FootPrints:Fiducial_1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD69A
+Path = /592B68FC
+Reference = F3;
+ValeurCmp = FIDUCIAL;
+IdModule  = FootPrints:Fiducial_1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD69F
+Path = /592B9D4E
+Reference = H1;
+ValeurCmp = PCB_HOLE;
+IdModule  = FootPrints:Led_Hole;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD6A4
+Path = /592B9ED3
+Reference = H2;
+ValeurCmp = PCB_HOLE;
+IdModule  = FootPrints:Led_Hole;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD6A9
+Path = /592B9F1A
+Reference = H3;
+ValeurCmp = PCB_HOLE;
+IdModule  = FootPrints:Led_Hole;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD6AE
+Path = /592B9F5F
+Reference = H4;
+ValeurCmp = PCB_HOLE;
+IdModule  = FootPrints:Led_Hole;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD6CA
+Path = /5926FB74/592935F4
+Reference = M1;
+ValeurCmp = Matrix_8x8_LED;
+IdModule  = FootPrints:Matrix_8x8_LEDs;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD6DB
+Path = /591BB8C8/59265F49
+Reference = R1;
+ValeurCmp = 220ohm;
+IdModule  = FootPrints:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD6EC
+Path = /591BB8C8/59265A1A
+Reference = R2;
+ValeurCmp = 220ohm;
+IdModule  = FootPrints:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD6FD
+Path = /5926FB74/59273456
+Reference = R3;
+ValeurCmp = 9.53k;
+IdModule  = FootPrints:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD70E
+Path = /5926FB74/59275BDA
+Reference = R4;
+ValeurCmp = 9.53k;
+IdModule  = FootPrints:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD71C
+Path = /591BB8C8/5924CA6D
+Reference = Rv1;
+ValeurCmp = 10K;
+IdModule  = FootPrints:POT_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD72A
+Path = /591BB8C8/5926289E
+Reference = Rv2;
+ValeurCmp = 10K;
+IdModule  = FootPrints:POT_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD74B
+Path = /5926FB74/59270D61
+Reference = U1;
+ValeurCmp = MAX7219;
+IdModule  = FootPrints:MAX7219;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD76C
+Path = /5926FB74/59275BCD
+Reference = U2;
+ValeurCmp = MAX7219;
+IdModule  = FootPrints:MAX7219;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD7CA
+Path = /591BB8C8/591BB8D3
+Reference = XA1;
+ValeurCmp = Conn_Poncho2P_2x_20x2;
+IdModule  = FootPrints:Conn_Poncho_Izquierdo;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BD827
+Path = /5926FB74/5926FFDF
+Reference = XA2;
+ValeurCmp = Conn_Poncho2P_2x_20x2;
+IdModule  = FootPrints:Conn_Poncho_Derecha;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BEBB0
+Path = 
+Reference = MP?;
+ValeurCmp = Plantilla_EDU-CIAA;
+IdModule  = FootPrints:Plantilla_EDU-CIAA;
+EndCmp
+
+EndListe

@@ -1,4 +1,4 @@
-(module Pin_Headers:Pin_Header_Straight_2x20 (layer F.Cu) (tedit 560CD9FA)
+(module Pin_Header_Straight_2x20 (layer F.Cu) (tedit 560CD9FA)
   (descr "Through hole pin header")
   (tags "pin header")
   (fp_text reference P3 (at 1.524 -2.032) (layer F.SilkS)
@@ -59,9 +59,9 @@
   (pad 38 thru_hole oval (at 2.54 45.72) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 39 thru_hole oval (at 0 48.26) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 40 thru_hole oval (at 2.54 48.26) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  (model Pin_Headers.3dshapes/Pin_Header_Straight_2x20.wrl
-    (at (xyz 0.05 -0.95 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+  (model "D:/Especialización en Sistemas Embebidos UBA/Octubre-Noviembre/Diseño de PCBs/TP Final - Jhon Jairo Vargas Yaya/Proyecto/Componentes.3DShapes/pin_strip_2mm_20x2.wrl"
+    (at (xyz 0.05 -0.95 -0.07000000000000001))
+    (scale (xyz 1.27 1.3 1))
+    (rotate (xyz 180 0 90))
   )
 )

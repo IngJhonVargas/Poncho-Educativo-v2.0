@@ -50,8 +50,12 @@ U 1 1 59270D61
 P 2750 2800
 F 0 "U1" H 2350 3600 50  0000 C CNN
 F 1 "MAX7219" H 3050 3600 50  0000 C CNN
-F 2 "" H 2750 2800 50  0001 C CNN
-F 3 "" H 2750 2800 50  0001 C CNN
+F 2 "FootPrints:MAX7219" H 2750 2800 50  0001 C CNN
+F 3 "MAX7219,21" H 2750 2800 50  0001 C CNN
+F 4 "Maxim Integrated" H 2750 2800 60  0001 C CNN "Manf"
+F 5 "MAX7219CWG+" H 2750 2800 60  0001 C CNN "Manf#"
+F 6 "MAX7219CWG+-ND" H 2750 2800 60  0001 C CNN "Digikey#"
+F 7 "IC DRIVER LED DISP 8DGT 24-SOIC" H 2750 2800 60  0001 C CNN "Desc"
 	1    2750 2800
 	1    0    0    -1  
 $EndComp
@@ -75,7 +79,11 @@ AR Path="/5926FB74/59273456" Ref="R3"  Part="1"
 F 0 "R3" V 4130 2850 50  0000 C CNN
 F 1 "9.53k" V 4050 2850 50  0000 C CNN
 F 2 "FootPrints:R_0805_HandSoldering" V 3980 2850 50  0001 C CNN
-F 3 "" H 4050 2850 50  0001 C CNN
+F 3 "Fixed Resistors Prod Catalog" H 4050 2850 50  0001 C CNN
+F 4 "Panasonic Electronic Components" V 4050 2850 60  0001 C CNN "Manf"
+F 5 "ERJ-PB6D9531V" V 4050 2850 60  0001 C CNN "Manf#"
+F 6 "P21131TR-ND" V 4050 2850 60  0001 C CNN "Digikey#"
+F 7 "Resistencia en microprocesador 0.25 W, 1/4 W ±0.5% 9.53 k Ohm AEC-Q200 automotriz, protección contra impulsos Película gruesa 0805 (2012 métrico)" V 4050 2850 60  0001 C CNN "Desc"
 	1    4050 2850
 	0    1    1    0   
 $EndComp
@@ -86,7 +94,11 @@ P 2750 5250
 F 0 "AFF1" H 2800 6050 50  0000 C CNN
 F 1 "CA56-12" H 2800 5950 50  0000 C CNN
 F 2 "FootPrints:Cx56-12" H 2250 5250 50  0001 C CNN
-F 3 "" H 2250 5250 50  0001 C CNN
+F 3 "LDQ-N514RI" H 2250 5250 50  0001 C CNN
+F 4 "Lumex Opto/Components Inc." H 2750 5250 60  0001 C CNN "Manf"
+F 5 "LDQ-N514RI" H 2750 5250 60  0001 C CNN "Manf#"
+F 6 "67-1442-ND" H 2750 5250 60  0001 C CNN "Digikey#"
+F 7 "Character LED Display Module Red 7-Segment 4 Character Common Cathode 2V 10mA 0.748\" H x 1.980\" W x 0.315\" D (19.00mm x 50.30mm x 8.00mm) 12-DIP (0.600\", 15.24mm)" H 2750 5250 60  0001 C CNN "Desc"
 	1    2750 5250
 	1    0    0    -1  
 $EndComp
@@ -340,8 +352,12 @@ U 1 1 59275BCD
 P 8900 2700
 F 0 "U2" H 8500 3500 50  0000 C CNN
 F 1 "MAX7219" H 9200 3500 50  0000 C CNN
-F 2 "" H 8900 2700 50  0001 C CNN
-F 3 "" H 8900 2700 50  0001 C CNN
+F 2 "FootPrints:MAX7219" H 8900 2700 50  0001 C CNN
+F 3 "MAX7219,21" H 8900 2700 50  0001 C CNN
+F 4 "Maxim Integrated" H 8900 2700 60  0001 C CNN "Manf"
+F 5 "MAX7219CWG+" H 8900 2700 60  0001 C CNN "Manf#"
+F 6 "MAX7219CWG+-ND" H 8900 2700 60  0001 C CNN "Digikey#"
+F 7 "IC DRIVER LED DISP 8DGT 24-SOIC" H 8900 2700 60  0001 C CNN "Desc"
 	1    8900 2700
 	1    0    0    -1  
 $EndComp
@@ -365,21 +381,25 @@ AR Path="/5926FB74/59275BDA" Ref="R4"  Part="1"
 F 0 "R4" V 10280 2750 50  0000 C CNN
 F 1 "9.53k" V 10200 2750 50  0000 C CNN
 F 2 "FootPrints:R_0805_HandSoldering" V 10130 2750 50  0001 C CNN
-F 3 "" H 10200 2750 50  0001 C CNN
+F 3 "Fixed Resistors Prod Catalog" H 10200 2750 50  0001 C CNN
+F 4 "Panasonic Electronic Components" V 10200 2750 60  0001 C CNN "Manf"
+F 5 "ERJ-PB6D9531V" V 10200 2750 60  0001 C CNN "Manf#"
+F 6 "P21131TR-ND" V 10200 2750 60  0001 C CNN "Digikey#"
+F 7 "Resistencia en microprocesador 0.25 W, 1/4 W ±0.5% 9.53 k Ohm AEC-Q200 automotriz, protección contra impulsos Película gruesa 0805 (2012 métrico)" V 10200 2750 60  0001 C CNN "Desc"
 	1    10200 2750
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 59275BE8
-P 6100 7000
+P 6100 6850
 AR Path="/59275BE8" Ref="#PWR?"  Part="1" 
 AR Path="/5926FB74/59275BE8" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 6100 6750 50  0001 C CNN
-F 1 "GND" H 5950 6950 50  0000 C CNN
-F 2 "" H 6100 7000 50  0001 C CNN
-F 3 "" H 6100 7000 50  0001 C CNN
-	1    6100 7000
+F 0 "#PWR06" H 6100 6600 50  0001 C CNN
+F 1 "GND" H 5950 6800 50  0000 C CNN
+F 2 "" H 6100 6850 50  0001 C CNN
+F 3 "" H 6100 6850 50  0001 C CNN
+	1    6100 6850
 	1    0    0    -1  
 $EndComp
 Text Label 7550 2250 0    60   ~ 0
@@ -524,23 +544,21 @@ Entry Wire Line
 	7450 2950 7550 2850
 Entry Wire Line
 	7450 3150 7550 3050
-Text Label 6100 6850 2    60   ~ 0
-GND
 Wire Wire Line
-	6100 6850 6100 7000
+	6100 6700 6100 6850
 Wire Notes Line
-	5750 6600 6350 6600
+	5750 6450 6350 6450
 Wire Notes Line
-	6350 6600 6350 7300
+	6350 6450 6350 7150
 Wire Notes Line
-	6350 7300 5750 7300
+	6350 7150 5750 7150
 Wire Notes Line
-	5750 7300 5750 6600
+	5750 7150 5750 6450
 Wire Notes Line
-	5750 7300 5550 7500
+	5750 7150 5550 7350
 Wire Notes Line
-	5550 7500 5400 7500
-Text Notes 4250 7600 0    60   ~ 0
+	5550 7350 5400 7350
+Text Notes 4250 7450 0    60   ~ 0
 GND con etiqueta global\npara el MAX7219 de la \nmatriz de LEDs
 NoConn ~ 5300 2800
 NoConn ~ 5300 2700
@@ -605,8 +623,12 @@ U 1 1 592935F4
 P 8900 5150
 F 0 "M1" H 8150 6000 60  0000 C CNN
 F 1 "Matrix_8x8_LED" H 9350 6000 60  0000 C CNN
-F 2 "" H 8850 5150 60  0001 C CNN
+F 2 "FootPrints:Matrix_8x8_LEDs" H 8850 5150 60  0001 C CNN
 F 3 "TA15-11EWA" H 8850 5150 60  0001 C CNN
+F 4 "Kingbright" H 8900 5150 60  0001 C CNN "Manf"
+F 5 "TA15-11EWA" H 8900 5150 60  0001 C CNN "Manf#"
+F 6 "TA15-11EWA-ND" H 8900 5150 60  0001 C CNN "Digikey#"
+F 7 "Dot Matrix Display Module 8 x 8 Common Cathode Row, Common Anode Column Red 2V 1.50\" L x 1.50\" W x 0.41\" H (38.1mm x 38.1mm x 10.4mm)" H 8900 5150 60  0001 C CNN "Desc"
 	1    8900 5150
 	1    0    0    -1  
 $EndComp
@@ -722,51 +744,16 @@ Wire Wire Line
 	3900 2850 3500 2850
 Wire Wire Line
 	10050 2750 9650 2750
-$Comp
-L PWR_FLAG #FLG07
-U 1 1 592A4183
-P 3100 6950
-F 0 "#FLG07" H 3100 7025 50  0001 C CNN
-F 1 "PWR_FLAG" H 3100 7100 50  0000 C CNN
-F 2 "" H 3100 6950 50  0001 C CNN
-F 3 "" H 3100 6950 50  0001 C CNN
-	1    3100 6950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4250 2850 4250 2700
-Text Label 3100 7150 1    60   ~ 0
-PF
-Wire Wire Line
-	3100 7150 3100 6950
-Wire Notes Line
-	2800 6650 3400 6650
-Wire Notes Line
-	3400 6650 3400 7300
-Wire Notes Line
-	3400 7300 2800 7300
-Wire Notes Line
-	2800 7300 2800 6650
-Text Notes 2350 7550 2    60   ~ 0
-Power Flag\ncon etiqueta global.
-Wire Notes Line
-	2650 7450 2450 7450
-Wire Notes Line
-	2800 7300 2650 7450
-Text Label 3650 2850 0    60   ~ 0
-PF
-Text Label 9800 2750 0    60   ~ 0
-PF
 NoConn ~ 5300 1300
-Text Label 6100 6950 0    60   ~ 0
-PF
 Wire Wire Line
 	6900 1300 6500 1300
 $Comp
-L +5V #PWR08
+L +5V #PWR07
 U 1 1 592A66C3
 P 6900 1200
-F 0 "#PWR08" H 6900 1050 50  0001 C CNN
+F 0 "#PWR07" H 6900 1050 50  0001 C CNN
 F 1 "+5V" H 6890 1380 50  0000 C CNN
 F 2 "" H 6900 1200 50  0001 C CNN
 F 3 "" H 6900 1200 50  0001 C CNN
@@ -775,4 +762,16 @@ F 3 "" H 6900 1200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6900 1200 6900 1300
+Text Notes 950  1250 0    79   ~ 0
+En los Integrados MAX7219:\nLos cátodos son - DIG0 al DIG 7.\nLos ánodos son SEGa al SEGg y SEGdp
+Wire Notes Line
+	750  700  3500 700 
+Wire Notes Line
+	3500 700  3500 1450
+Wire Notes Line
+	3500 1450 750  1450
+Wire Notes Line
+	750  1450 750  700 
+Text Label 6100 6700 2    60   ~ 0
+GND
 $EndSCHEMATC
