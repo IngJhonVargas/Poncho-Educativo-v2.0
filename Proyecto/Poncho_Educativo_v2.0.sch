@@ -3,6 +3,7 @@ LIBS:power
 LIBS:device
 LIBS:display
 LIBS:Poncho_Esqueleto
+LIBS:conn
 LIBS:Poncho_Educativo_v2.0-cache
 EELAYER 25 0
 EELAYER END
@@ -11,12 +12,12 @@ encoding utf-8
 Sheet 1 3
 Title "Poncho Educativo v2.0"
 Date "2017-05-15"
-Rev ""
-Comp "Curso - Diseño de PCB"
-Comment1 "Autor del Poncho: Ing. Jhon Jairo Vargas Yaya"
-Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
-Comment3 ""
-Comment4 ""
+Rev "(1) 1/07/15"
+Comp "CESE - Diseño de PCB"
+Comment1 "Licencia del proyecto: BSD 2 - Archivo: LICENSE"
+Comment2 "Autor del Poncho: Ing. Jhon Jairo Vargas Yaya"
+Comment3 "Autores y Licencia del template (Diego Brengi - UNLaM)"
+Comment4 "Revisor: Juan Carlos Suarez"
 $EndDescr
 $Sheet
 S 7800 1800 1450 2650

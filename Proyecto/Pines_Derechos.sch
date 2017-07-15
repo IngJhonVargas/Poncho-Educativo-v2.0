@@ -3,6 +3,7 @@ LIBS:power
 LIBS:device
 LIBS:display
 LIBS:Poncho_Esqueleto
+LIBS:conn
 LIBS:Poncho_Educativo_v2.0-cache
 EELAYER 25 0
 EELAYER END
@@ -12,11 +13,11 @@ Sheet 2 3
 Title "Esquemático de conexión para pines Derechos."
 Date "2017-05-25"
 Rev ""
-Comp "Curso - Diseño de PCB"
-Comment1 "Autor Esquemático: Ing. Jhon Jairo Vargas Yaya"
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comp "CESE - Diseño de PCB"
+Comment1 "Licencia del proyecto: BSD 2 - Archivo: LICENSE"
+Comment2 "Autor del Poncho: Ing. Jhon Jairo Vargas Yaya"
+Comment3 "Autores y Licencia del template (Diego Brengi - UNLaM)"
+Comment4 "Revisor: Juan Carlos Suarez"
 $EndDescr
 $Comp
 L Conn_Poncho2P_2x_20x2 XA2
@@ -77,7 +78,7 @@ P 4050 2850
 AR Path="/59273456" Ref="R1"  Part="1" 
 AR Path="/5926FB74/59273456" Ref="R3"  Part="1" 
 F 0 "R3" V 4130 2850 50  0000 C CNN
-F 1 "9.53k" V 4050 2850 50  0000 C CNN
+F 1 "9.53k" V 4200 2850 50  0000 C CNN
 F 2 "FootPrints:R_0805_HandSoldering" V 3980 2850 50  0001 C CNN
 F 3 "Fixed Resistors Prod Catalog" H 4050 2850 50  0001 C CNN
 F 4 "Panasonic Electronic Components" V 4050 2850 60  0001 C CNN "Manf"
@@ -379,7 +380,7 @@ P 10200 2750
 AR Path="/59275BDA" Ref="R2"  Part="1" 
 AR Path="/5926FB74/59275BDA" Ref="R4"  Part="1" 
 F 0 "R4" V 10280 2750 50  0000 C CNN
-F 1 "9.53k" V 10200 2750 50  0000 C CNN
+F 1 "9.53k" V 10350 2750 50  0000 C CNN
 F 2 "FootPrints:R_0805_HandSoldering" V 10130 2750 50  0001 C CNN
 F 3 "Fixed Resistors Prod Catalog" H 10200 2750 50  0001 C CNN
 F 4 "Panasonic Electronic Components" V 10200 2750 60  0001 C CNN "Manf"
@@ -389,22 +390,9 @@ F 7 "Resistencia en microprocesador 0.25 W, 1/4 W ±0.5% 9.53 k Ohm AEC-Q200 aut
 	1    10200 2750
 	0    1    1    0   
 $EndComp
-$Comp
-L GND #PWR?
-U 1 1 59275BE8
-P 6100 6850
-AR Path="/59275BE8" Ref="#PWR?"  Part="1" 
-AR Path="/5926FB74/59275BE8" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 6100 6600 50  0001 C CNN
-F 1 "GND" H 5950 6800 50  0000 C CNN
-F 2 "" H 6100 6850 50  0001 C CNN
-F 3 "" H 6100 6850 50  0001 C CNN
-	1    6100 6850
-	1    0    0    -1  
-$EndComp
 Text Label 7550 2250 0    60   ~ 0
 C0
-Text Label 7550 3150 0    60   ~ 0
+Text Label 7550 3350 0    60   ~ 0
 C1
 Text Label 7550 2750 0    60   ~ 0
 C3
@@ -412,8 +400,6 @@ Text Label 7550 2650 0    60   ~ 0
 C2
 Wire Wire Line
 	8150 2250 7550 2250
-Wire Wire Line
-	8150 3150 7550 3150
 Wire Wire Line
 	8150 2650 7550 2650
 Wire Wire Line
@@ -424,8 +410,6 @@ Entry Wire Line
 	7450 2750 7550 2650
 Entry Wire Line
 	7450 2850 7550 2750
-Entry Wire Line
-	7450 3250 7550 3150
 Wire Bus Line
 	7450 3950 7450 2350
 Text Label 7450 3950 2    60   ~ 0
@@ -512,28 +496,20 @@ Text Label 9650 3550 0    60   ~ 0
 CLK
 Wire Wire Line
 	9650 3250 9650 3550
-Text Label 7750 2450 0    60   ~ 0
-GND
-Text Label 7750 2950 0    60   ~ 0
-GND
 Text Label 7550 2350 0    60   ~ 0
 C4
 Text Label 7550 2550 0    60   ~ 0
 C6
 Text Label 7550 2850 0    60   ~ 0
 C7
-Text Label 7550 3050 0    60   ~ 0
+Text Label 7550 3250 0    60   ~ 0
 C5
-Wire Wire Line
-	8150 3050 7550 3050
 Wire Wire Line
 	8150 2950 7750 2950
 Wire Wire Line
 	8150 2850 7550 2850
 Wire Wire Line
 	8150 2550 7550 2550
-Wire Wire Line
-	8150 2450 7750 2450
 Wire Wire Line
 	8150 2350 7550 2350
 Entry Wire Line
@@ -542,24 +518,6 @@ Entry Wire Line
 	7450 2650 7550 2550
 Entry Wire Line
 	7450 2950 7550 2850
-Entry Wire Line
-	7450 3150 7550 3050
-Wire Wire Line
-	6100 6700 6100 6850
-Wire Notes Line
-	5750 6450 6350 6450
-Wire Notes Line
-	6350 6450 6350 7150
-Wire Notes Line
-	6350 7150 5750 7150
-Wire Notes Line
-	5750 7150 5750 6450
-Wire Notes Line
-	5750 7150 5550 7350
-Wire Notes Line
-	5550 7350 5400 7350
-Text Notes 4250 7450 0    60   ~ 0
-GND con etiqueta global\npara el MAX7219 de la \nmatriz de LEDs
 NoConn ~ 5300 2800
 NoConn ~ 5300 2700
 NoConn ~ 5300 2600
@@ -750,10 +708,10 @@ NoConn ~ 5300 1300
 Wire Wire Line
 	6900 1300 6500 1300
 $Comp
-L +5V #PWR07
+L +5V #PWR06
 U 1 1 592A66C3
 P 6900 1200
-F 0 "#PWR07" H 6900 1050 50  0001 C CNN
+F 0 "#PWR06" H 6900 1050 50  0001 C CNN
 F 1 "+5V" H 6890 1380 50  0000 C CNN
 F 2 "" H 6900 1200 50  0001 C CNN
 F 3 "" H 6900 1200 50  0001 C CNN
@@ -772,6 +730,46 @@ Wire Notes Line
 	3500 1450 750  1450
 Wire Notes Line
 	750  1450 750  700 
-Text Label 6100 6700 2    60   ~ 0
-GND
+Wire Wire Line
+	8150 3150 8000 3150
+Wire Wire Line
+	8000 3150 8000 3350
+Wire Wire Line
+	8000 3350 7550 3350
+Entry Wire Line
+	7450 3450 7550 3350
+Wire Wire Line
+	8150 3050 7900 3050
+Wire Wire Line
+	7900 3050 7900 3250
+Wire Wire Line
+	7900 3250 7550 3250
+Entry Wire Line
+	7450 3350 7550 3250
+$Comp
+L GND #PWR07
+U 1 1 5968354F
+P 7750 3000
+F 0 "#PWR07" H 7750 2750 50  0001 C CNN
+F 1 "GND" H 7750 2850 50  0000 C CNN
+F 2 "" H 7750 3000 50  0001 C CNN
+F 3 "" H 7750 3000 50  0001 C CNN
+	1    7750 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2950 7750 3000
+$Comp
+L GND #PWR08
+U 1 1 5968361C
+P 8000 2450
+F 0 "#PWR08" H 8000 2200 50  0001 C CNN
+F 1 "GND" V 8000 2250 50  0000 C CNN
+F 2 "" H 8000 2450 50  0001 C CNN
+F 3 "" H 8000 2450 50  0001 C CNN
+	1    8000 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 2450 8000 2450
 $EndSCHEMATC
