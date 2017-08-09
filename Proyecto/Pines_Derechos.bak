@@ -4,6 +4,7 @@ LIBS:device
 LIBS:display
 LIBS:Poncho_Esqueleto
 LIBS:conn
+LIBS:Poncho_Educativo_v2.0-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
